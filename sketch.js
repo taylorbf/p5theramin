@@ -6,6 +6,9 @@ function setup() {
 }
 
 function draw() {
+  background(255)
   osc.freq(mouseX,0.02)
   osc.amp(mouseY/height,0.02)
+  
+  text("testing",50,50)
 }
